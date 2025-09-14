@@ -6,6 +6,7 @@ import ChooseUs from './components/ChooseUS'
 import BuyerSellers from './components/BuyerSellers'
 import Features from './components/Features'
 import TopProperties from './components/TopProperty'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <BuyerSellers/>
      <Features/> 
       <TopProperties/>
+      <Footer/>
     </div>
   )
 }
